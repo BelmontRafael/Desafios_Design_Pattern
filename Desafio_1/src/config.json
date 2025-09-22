@@ -1,0 +1,8 @@
+{
+  "defaultCoin": "bitcoin",
+  "buyThreshold": 30000,
+  "sellThreshold": 70000,
+  "variationPercentage": 5.0,
+  "timeWindowMinutes": 15,
+  "alertType": "threshold"
+}
