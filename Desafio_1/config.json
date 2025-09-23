@@ -1,0 +1,7 @@
+{
+  "buyThreshold": 30000,
+  "sellThreshold": 70000,
+  "variationPercentage": 5,
+  "timeWindowMinutes": 15,
+  "alertType": "threshold"
+}
