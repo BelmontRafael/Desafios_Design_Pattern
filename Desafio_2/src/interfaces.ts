@@ -16,3 +16,8 @@ export interface Resume {
   experiences: Experience[];
   education: Education[];
 }
+
+export interface IResumeFormatter {
+  format(resume: Resume): string;
+  getFileExtension(): string;
+}
