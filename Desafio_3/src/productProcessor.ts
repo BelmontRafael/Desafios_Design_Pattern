@@ -48,10 +48,10 @@ export class ProductProcessor {
 
   private showUsage(): void {
     console.log('\nUso correto:');
-    console.log('node app.js --input <arquivo> --format=<csv|json|xml>');
+    console.log('node index.js --input <arquivo> --format=<csv|json|xml>');
     console.log('\nExemplos:');
-    console.log('node app.js --input produtos.csv --format=csv');
-    console.log('node app.js --input produtos.json --format=json');
-    console.log('node app.js --input produtos.xml --format=xml');
+    console.log('node index.js --input produtos.csv --format=csv');
+    console.log('node index.js --input produtos.json --format=json');
+    console.log('node index.js --input produtos.xml --format=xml');
   }
 }
