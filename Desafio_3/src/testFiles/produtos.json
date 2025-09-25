@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "name": "Smartphone Samsung",
+    "price": 899.99
+  },
+  {
+    "productId": "2",
+    "productName": "Tablet iPad",
+    "cost": 599.00
+  }
+]
