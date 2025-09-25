@@ -7,3 +7,5 @@ export interface Product {
 export interface IProductProvider {
   load(filePath: string): Promise<Product[]>;
 }
+
+export type SupportedFormat = 'csv' | 'xml' | 'json';
