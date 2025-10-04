@@ -9,3 +9,7 @@ export interface IPackageContext {
   incrementUpdateCount(): void;
   getUpdateCount(): number;
 }
+
+export interface ICommand {
+  execute(): void;
+}
